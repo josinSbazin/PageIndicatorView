@@ -118,7 +118,7 @@ Name| Support version| Preview
 
 Add customized foreground for indicator (by josinSbazin). See below:
 
-![](https://im4.ezgif.com/tmp/ezgif-4-816cd829ad.gif)
+![](https://github.com/josinSbazin/pics/blob/master/foregrouund_feature.gif?raw=true)
 
 ### **Release Note**
 See release notes on [github releases](https://github.com/romandanylyk/PageIndicatorView/releases) or [Bintray release notes](https://bintray.com/romandanylyk/maven/pageindicatorview#release).
