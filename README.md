@@ -59,10 +59,14 @@ But if you're as lazy as I'm - then there is another option to handle `PageIndic
         app:piv_animationType="scale"
         app:piv_dynamicCount="true"
         app:piv_interactiveAnimation="true"
+        app:piv_hasForeground="true"
         app:piv_selectedColor="@color/gray_50"
         app:piv_unselectedColor="@color/gray_300"
+        app:piv_selectedForegroundColor="@color/gray_50"
+        app:piv_unselectedForegroundColor="@color/gray_300"
         app:piv_viewPager="@id/viewPager"
         attrs:piv_padding="12dp"
+        attrs:piv_foregroundPadding="2dp"
         attrs:piv_radius="8dp" />
 ```
 All the `piv_` attributes here are specific for `PageIndicatorView` so you can customise it as you want with attributes - pretty handy. 
@@ -111,6 +115,10 @@ Name| Support version| Preview
 `AnimationType.DROP`| 0.1.0 |![anim_drop](https://raw.githubusercontent.com/romandanylyk/PageIndicatorView/master/assets/anim_drop.gif)
 `AnimationType.SWAP`| 0.1.1 |![anim_swap](https://raw.githubusercontent.com/romandanylyk/PageIndicatorView/master/assets/anim_swap.gif)
 
+
+Add customized foreground for indicator (by josinSbazin). See below:
+
+![](https://im4.ezgif.com/tmp/ezgif-4-816cd829ad.gif)
 
 ### **Release Note**
 See release notes on [github releases](https://github.com/romandanylyk/PageIndicatorView/releases) or [Bintray release notes](https://bintray.com/romandanylyk/maven/pageindicatorview#release).
